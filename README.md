@@ -27,13 +27,13 @@ A high-performance Minecraft mod built with Forge for Minecraft 1.19.2, featurin
 ## 🛠️ Development Setup
 
 1. **Prerequisites**: Java 17 installed
-2. **Clone**: `git clone https://github.com/maxwellhorwitz/bugati-mod.git`
+2. **Clone**: `git clone https://github.com/ElderMars/bugati-mod.git`
 3. **Build**: `./gradlew build`
 4. **Test**: `./gradlew runClient`
 
 ## 📦 Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/maxwellhorwitz/bugati-mod/releases)
+1. Download the latest release from [GitHub Releases](https://github.com/ElderMars/bugati-mod/releases)
 2. Install [Minecraft Forge 1.19.2-43.3.0+](https://files.minecraftforge.net/)
 3. Place the `.jar` file in your `mods` folder
 4. Launch Minecraft and enjoy!
@@ -72,8 +72,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Maxwell Horwitz**
-- GitHub: [@maxwellhorwitz](https://github.com/maxwellhorwitz)
-- Repository: [bugati-mod](https://github.com/maxwellhorwitz/bugati-mod)
+- GitHub: [@ElderMars](https://github.com/ElderMars)
+- Repository: [bugati-mod](https://github.com/ElderMars/bugati-mod)
 
 ## 🏷️ Version
 

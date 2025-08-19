@@ -37,7 +37,7 @@ git commit -m "Initial release: Bugati Cars Mod v1.0
 - Complete crafting system for survival mode"
 
 # Add remote repository (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/maxwellhorwitz/bugati-mod.git
+git remote add origin https://github.com/ElderMars/bugati-mod.git
 
 # Push to GitHub
 git push -u origin main
@@ -106,7 +106,7 @@ git push -u origin main
 ## 6. Your Repository URL
 
 Once set up, your mod will be available at:
-**https://github.com/maxwellhorwitz/bugati-mod**
+**https://github.com/ElderMars/bugati-mod**
 
 ## 🎉 You're Done!
 

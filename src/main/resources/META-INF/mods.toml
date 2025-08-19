@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[43,)"
 license="MIT"
-issueTrackerURL="https://github.com/maxwellhorwitz/bugati-mod/issues"
+issueTrackerURL="https://github.com/ElderMars/bugati-mod/issues"
 
 [[mods]]
 modId="yourmod"
 version="${file.jarVersion}"
 displayName="Bugati Cars Mod"
-updateJSONURL="https://raw.githubusercontent.com/maxwellhorwitz/bugati-mod/main/update.json"
-displayURL="https://github.com/maxwellhorwitz/bugati-mod"
+updateJSONURL="https://raw.githubusercontent.com/ElderMars/bugati-mod/main/update.json"
+displayURL="https://github.com/ElderMars/bugati-mod"
 logoFile="bugati.png"
 credits="Inspired by the legendary Bugatti automotive brand"
 authors="Maxwell Horwitz"

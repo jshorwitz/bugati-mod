@@ -30,7 +30,7 @@ public class YourMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         LOGGER.info("Bugati Cars Mod v1.0 has been loaded!");
-        LOGGER.info("Created by Maxwell Horwitz - https://github.com/maxwellhorwitz/bugati-mod");
+        LOGGER.info("Created by Maxwell Horwitz - https://github.com/ElderMars/bugati-mod");
     }
     
     private void commonSetup(final FMLCommonSetupEvent event) {

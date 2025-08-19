@@ -65,8 +65,8 @@ When adding new car models, consider these performance tiers:
 
 ## Questions?
 
-- Check existing [Issues](https://github.com/maxwellhorwitz/bugati-mod/issues)
-- Start a [Discussion](https://github.com/maxwellhorwitz/bugati-mod/discussions)
-- Contact [@maxwellhorwitz](https://github.com/maxwellhorwitz)
+- Check existing [Issues](https://github.com/ElderMars/bugati-mod/issues)
+- Start a [Discussion](https://github.com/ElderMars/bugati-mod/discussions)
+- Contact [@ElderMars](https://github.com/ElderMars)
 
 Thanks for contributing to the automotive excellence in Minecraft! 🚀
