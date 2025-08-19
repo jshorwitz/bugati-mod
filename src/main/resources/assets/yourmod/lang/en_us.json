@@ -1,0 +1,26 @@
+{
+  "item.yourmod.bugatti_car": "Bugati Chiron",
+  "item.yourmod.bugatti_veyron": "Bugati Veyron",
+  "item.yourmod.bugatti_divo": "Bugati Divo",
+  "item.yourmod.bugatti_type35": "Bugati Type 35",
+  "item.yourmod.bugatti_centodieci": "Bugati Centodieci",
+  "item.yourmod.bugatti_bolide": "Bugati Bolide",
+  
+  "item.yourmod.car_engine": "Car Engine",
+  "item.yourmod.car_wheel": "Car Wheel", 
+  "item.yourmod.car_chassis": "Car Chassis",
+  
+  "item.yourmod.bugatti_spawn_egg": "Bugati Chiron Spawn Egg",
+  "item.yourmod.bugatti_veyron_spawn_egg": "Bugati Veyron Spawn Egg",
+  "item.yourmod.bugatti_divo_spawn_egg": "Bugati Divo Spawn Egg",
+  "item.yourmod.bugatti_type35_spawn_egg": "Bugati Type 35 Spawn Egg",
+  "item.yourmod.bugatti_centodieci_spawn_egg": "Bugati Centodieci Spawn Egg",
+  "item.yourmod.bugatti_bolide_spawn_egg": "Bugati Bolide Spawn Egg",
+  
+  "entity.yourmod.bugatti_car": "Bugati Chiron",
+  "entity.yourmod.bugatti_veyron": "Bugati Veyron",
+  "entity.yourmod.bugatti_divo": "Bugati Divo",
+  "entity.yourmod.bugatti_type35": "Bugati Type 35",
+  "entity.yourmod.bugatti_centodieci": "Bugati Centodieci",
+  "entity.yourmod.bugatti_bolide": "Bugati Bolide"
+}

@@ -1,0 +1,18 @@
+TEXTURE COLORS for car_wheel.png
+========================================
+
+Description: Car wheel with tire and rim
+
+Colors to use:
+- Primary: #202020
+- Secondary: #C0C0C0
+- Accent: #404040
+
+Size: 16x16 pixels for items, 128x64 for entities
+Format: PNG with transparency support
+
+You can create this texture using:
+- GIMP (free)
+- Paint.NET (free)
+- Photoshop
+- Online pixel art tools

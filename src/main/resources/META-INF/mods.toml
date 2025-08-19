@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+issueTrackerURL="https://github.com/maxwellhorwitz/bugati-mod/issues"
+
+[[mods]]
+modId="yourmod"
+version="${file.jarVersion}"
+displayName="Bugati Cars Mod"
+updateJSONURL="https://raw.githubusercontent.com/maxwellhorwitz/bugati-mod/main/update.json"
+displayURL="https://github.com/maxwellhorwitz/bugati-mod"
+logoFile="bugati.png"
+credits="Inspired by the legendary Bugatti automotive brand"
+authors="Maxwell Horwitz"
+description='''
+Drive luxury Bugatti supercars in Minecraft! Features 6 different Bugatti models including the Chiron, Veyron, Divo, Type 35, Centodieci, and Bolide. Each car has unique performance characteristics, fuel systems, and special effects.
+'''
+
+[[dependencies.yourmod]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.yourmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,1.20)"
+ordering="NONE"
+side="BOTH"

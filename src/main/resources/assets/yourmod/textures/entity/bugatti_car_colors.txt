@@ -1,0 +1,18 @@
+ENTITY TEXTURE COLORS for bugatti_car.png
+=============================================
+
+Size: 128x64 pixels
+Description: 3D model texture mapping
+
+Colors:
+- Body: #2B6CC4 (Bugatti Blue)
+- Trim: #C0C0C0 (Silver/Chrome)
+- Wheels: #202020 (Black)
+- Lights: #FFFFFF (White)
+- Windows: #ADD8E6 (Light Blue, semi-transparent)
+- Shadows: #1E5A96 (Darker Blue)
+
+Layout suggestions:
+- Top half (0-32): Main body panels
+- Bottom left (0-64, 32-64): Details, lights, trim
+- Bottom right (64-128, 32-64): Wheels and undercarriage

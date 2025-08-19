@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/maxwellhorwitz/bugati-mod",
+  "1.19.2": {
+    "1.0.0": "Initial release of Bugati Cars Mod featuring 6 luxury Bugatti models with unique driving physics and special effects."
+  },
+  "promos": {
+    "1.19.2-latest": "1.0.0",
+    "1.19.2-recommended": "1.0.0"
+  }
+}

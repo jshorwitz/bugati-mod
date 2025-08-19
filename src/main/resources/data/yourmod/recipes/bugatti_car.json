@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "ECE",
+    "WDW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "E": {
+      "item": "yourmod:car_engine"
+    },
+    "C": {
+      "item": "yourmod:car_chassis"
+    },
+    "W": {
+      "item": "yourmod:car_wheel"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "yourmod:bugatti_car",
+    "count": 1
+  }
+}

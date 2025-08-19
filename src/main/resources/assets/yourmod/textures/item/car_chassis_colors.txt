@@ -1,0 +1,18 @@
+TEXTURE COLORS for car_chassis.png
+========================================
+
+Description: Metal frame structure
+
+Colors to use:
+- Primary: #808080
+- Secondary: #606060
+- Accent: #00000000
+
+Size: 16x16 pixels for items, 128x64 for entities
+Format: PNG with transparency support
+
+You can create this texture using:
+- GIMP (free)
+- Paint.NET (free)
+- Photoshop
+- Online pixel art tools

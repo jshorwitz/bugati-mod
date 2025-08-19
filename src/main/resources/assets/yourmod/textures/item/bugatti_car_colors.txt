@@ -1,0 +1,20 @@
+TEXTURE COLORS for bugatti_car.png
+========================================
+
+Description: Bugatti Chiron - Top view for item, 3D mapping for entity
+
+Colors to use:
+- Primary: #2B6CC4
+- Secondary: #C0C0C0
+- Accent: #202020
+- Highlight: #FFFFFF
+- Window: #ADD8E6
+
+Size: 16x16 pixels for items, 128x64 for entities
+Format: PNG with transparency support
+
+You can create this texture using:
+- GIMP (free)
+- Paint.NET (free)
+- Photoshop
+- Online pixel art tools
