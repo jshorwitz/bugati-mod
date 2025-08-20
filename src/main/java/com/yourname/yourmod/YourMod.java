@@ -2,6 +2,12 @@ package com.yourname.yourmod;
 
 import com.yourname.yourmod.entity.ModEntityTypes;
 import com.yourname.yourmod.item.ModItems;
+import com.yourname.yourmod.sound.ModSounds;
+import com.yourname.yourmod.client.renderer.entity.SimpleCarRenderer;
+import com.yourname.yourmod.client.renderer.entity.SimpleCarRenderer.CarModel;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -22,10 +28,12 @@ public class YourMod {
         // Register mod content
         ModItems.register(modEventBus);
         ModEntityTypes.register(modEventBus);
+        ModSounds.register(modEventBus);
         
         // Register setup events
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::clientSetup);
+        modEventBus.addListener(this::registerLayerDefinitions);
         
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -38,6 +46,19 @@ public class YourMod {
     }
     
     private void clientSetup(final FMLClientSetupEvent event) {
+        event.enqueueWork(() -> {
+            // Register simple entity renderers for debugging
+            EntityRenderers.register(ModEntityTypes.BUGATTI_CAR.get(), SimpleCarRenderer::new);
+            EntityRenderers.register(ModEntityTypes.BUGATTI_VEYRON.get(), SimpleCarRenderer::new);
+            EntityRenderers.register(ModEntityTypes.BUGATTI_DIVO.get(), SimpleCarRenderer::new);
+            EntityRenderers.register(ModEntityTypes.BUGATTI_TYPE35.get(), SimpleCarRenderer::new);
+            EntityRenderers.register(ModEntityTypes.BUGATTI_CENTODIECI.get(), SimpleCarRenderer::new);
+            EntityRenderers.register(ModEntityTypes.BUGATTI_BOLIDE.get(), SimpleCarRenderer::new);
+        });
         LOGGER.info("Bugati Cars Mod client setup complete!");
+    }
+    
+    private void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(SimpleCarRenderer.LAYER_LOCATION, CarModel::createBodyLayer);
     }
 }

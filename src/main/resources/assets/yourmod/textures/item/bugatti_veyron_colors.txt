@@ -1,0 +1,6 @@
+# Bugatti Veyron Texture Colors
+
+Dark Racing Blue: #192D55
+Silver Accents: #C8C8C8
+White Racing Stripe: #FFFFFF
+Black Wheels: #232323

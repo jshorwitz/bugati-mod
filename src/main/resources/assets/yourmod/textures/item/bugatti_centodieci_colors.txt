@@ -1,0 +1,6 @@
+# Bugatti Centodieci Texture Colors
+
+Pearl White: #FAFAFF
+Luxury Gold: #FFD700
+Platinum Wheels: #DCDCEB
+Crystal Blue Windows: #C8E6FF

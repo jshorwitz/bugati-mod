@@ -1,0 +1,1048 @@
+{
+  "_comment": "=== ENGINE STARTUP & SHUTDOWN ===",
+  "engine_startup_sequence": {
+    "subtitle": "subtitles.bugatti.engine.startup",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.extend",
+        "volume": 1.0,
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity.lightning_bolt.thunder",
+        "volume": 0.3,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "engine_crank": {
+    "subtitle": "subtitles.bugatti.engine.crank",
+    "sounds": [
+      {
+        "name": "minecraft:block.grindstone.use",
+        "volume": 0.8,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "engine_ignition": {
+    "subtitle": "subtitles.bugatti.engine.ignition",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "volume": 0.4,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "engine_shutdown": {
+    "subtitle": "subtitles.bugatti.engine.shutdown",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.contract",
+        "volume": 0.8,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "engine_cool_down": {
+    "subtitle": "subtitles.bugatti.engine.cool_down",
+    "sounds": [
+      {
+        "name": "minecraft:block.lava.extinguish",
+        "volume": 0.3,
+        "pitch": 0.4
+      }
+    ]
+  },
+
+  "_comment2": "=== IDLE VARIATIONS ===",
+  "engine_idle_low": {
+    "subtitle": "subtitles.bugatti.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.4,
+        "pitch": 0.3
+      },
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.2,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "engine_idle_mid": {
+    "subtitle": "subtitles.bugatti.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.5,
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.3,
+        "pitch": 0.2
+      }
+    ]
+  },
+  "engine_idle_high": {
+    "subtitle": "subtitles.bugatti.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.6,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.4,
+        "pitch": 0.3
+      }
+    ]
+  },
+  "engine_idle_luxury": {
+    "subtitle": "subtitles.bugatti.engine.idle.luxury",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.3,
+        "pitch": 0.4
+      },
+      {
+        "name": "minecraft:block.conduit.ambient",
+        "volume": 0.2,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "engine_idle_vintage": {
+    "subtitle": "subtitles.bugatti.engine.idle.vintage",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.6,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block.grindstone.use",
+        "volume": 0.2,
+        "pitch": 0.5
+      }
+    ]
+  },
+
+  "_comment3": "=== RPM-BASED ENGINE SOUNDS ===",
+  "engine_low_rpm": {
+    "subtitle": "subtitles.bugatti.engine.low_rpm",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.6,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.4,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "engine_mid_rpm": {
+    "subtitle": "subtitles.bugatti.engine.mid_rpm",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.8,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.5,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.3,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "engine_high_rpm": {
+    "subtitle": "subtitles.bugatti.engine.high_rpm",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.8,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.6,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "engine_redline": {
+    "subtitle": "subtitles.bugatti.engine.redline",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 1.0,
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+    ]
+  },
+
+  "_comment4": "=== TURBO & SUPERCHARGER ===",
+  "turbo_spool_up": {
+    "subtitle": "subtitles.bugatti.turbo.spool_up",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.7,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "turbo_spool_down": {
+    "subtitle": "subtitles.bugatti.turbo.spool_down",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.5,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "turbo_flutter": {
+    "subtitle": "subtitles.bugatti.turbo.flutter",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bat.takeoff",
+        "volume": 0.6,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "turbo_blow_off": {
+    "subtitle": "subtitles.bugatti.turbo.blow_off",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.shoot",
+        "volume": 0.8,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "supercharger_whine": {
+    "subtitle": "subtitles.bugatti.supercharger.whine",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.6,
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  "_comment5": "=== TRANSMISSION ===",
+  "gear_shift_up": {
+    "subtitle": "subtitles.bugatti.gear.shift_up",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.extend",
+        "volume": 0.5,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "gear_shift_down": {
+    "subtitle": "subtitles.bugatti.gear.shift_down",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.contract",
+        "volume": 0.5,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "clutch_engage": {
+    "subtitle": "subtitles.bugatti.clutch.engage",
+    "sounds": [
+      {
+        "name": "minecraft:block.lever.click",
+        "volume": 0.4,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "transmission_whine": {
+    "subtitle": "subtitles.bugatti.transmission.whine",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.3,
+        "pitch": 1.6
+      }
+    ]
+  },
+
+  "_comment6": "=== BRAKING SOUNDS ===",
+  "brake_light": {
+    "subtitle": "subtitles.bugatti.brake.light",
+    "sounds": [
+      {
+        "name": "minecraft:block.wool.break",
+        "volume": 0.4,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "brake_heavy": {
+    "subtitle": "subtitles.bugatti.brake.heavy",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "volume": 0.8,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "brake_racing": {
+    "subtitle": "subtitles.bugatti.brake.racing",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "volume": 1.0,
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "volume": 0.3,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "brake_squeal": {
+    "subtitle": "subtitles.bugatti.brake.squeal",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "volume": 0.6,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "abs_engage": {
+    "subtitle": "subtitles.bugatti.abs.engage",
+    "sounds": [
+      {
+        "name": "minecraft:block.dispenser.dispense",
+        "volume": 0.5,
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  "_comment7": "=== TIRE SOUNDS ===",
+  "tire_screech_light": {
+    "subtitle": "subtitles.bugatti.tire.screech",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "volume": 0.4,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "tire_screech_medium": {
+    "subtitle": "subtitles.bugatti.tire.screech",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "volume": 0.6,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "tire_screech_heavy": {
+    "subtitle": "subtitles.bugatti.tire.screech",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "volume": 0.8,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "tire_burnout": {
+    "subtitle": "subtitles.bugatti.tire.burnout",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.scream",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:block.fire.ambient",
+        "volume": 0.3,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "tire_chirp": {
+    "subtitle": "subtitles.bugatti.tire.chirp",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bat.takeoff",
+        "volume": 0.5,
+        "pitch": 1.8
+      }
+    ]
+  },
+
+  "_comment8": "=== HORN SOUNDS ===",
+  "horn_luxury": {
+    "subtitle": "subtitles.bugatti.horn.luxury",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bell",
+        "volume": 1.0,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block.note_block.bell",
+        "volume": 0.8,
+        "pitch": 0.75
+      }
+    ]
+  },
+  "horn_aggressive": {
+    "subtitle": "subtitles.bugatti.horn.aggressive",
+    "sounds": [
+      {
+        "name": "minecraft:entity.goat.screaming.horn_break",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "horn_vintage": {
+    "subtitle": "subtitles.bugatti.horn.vintage",
+    "sounds": [
+      {
+        "name": "minecraft:entity.goat.horn",
+        "volume": 1.0,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "horn_racing": {
+    "subtitle": "subtitles.bugatti.horn.racing",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "volume": 0.8,
+        "pitch": 1.5
+      }
+    ]
+  },
+
+  "_comment9": "=== DOOR SOUNDS ===",
+  "door_luxury_open": {
+    "subtitle": "subtitles.bugatti.door.open",
+    "sounds": [
+      {
+        "name": "minecraft:block.iron_door.open",
+        "volume": 0.6,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "door_luxury_close": {
+    "subtitle": "subtitles.bugatti.door.close",
+    "sounds": [
+      {
+        "name": "minecraft:block.iron_door.close",
+        "volume": 0.6,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "door_racing_open": {
+    "subtitle": "subtitles.bugatti.door.open",
+    "sounds": [
+      {
+        "name": "minecraft:block.iron_door.open",
+        "volume": 0.8,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "door_racing_close": {
+    "subtitle": "subtitles.bugatti.door.close",
+    "sounds": [
+      {
+        "name": "minecraft:block.iron_door.close",
+        "volume": 0.8,
+        "pitch": 1.2
+      }
+    ]
+  },
+
+  "_comment10": "=== CHIRON W16 ENGINE SOUNDS ===",
+  "chiron_engine_idle": {
+    "subtitle": "subtitles.bugatti.chiron.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.5,
+        "pitch": 0.3
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.4,
+        "pitch": 0.2
+      },
+      {
+        "name": "minecraft:block.conduit.ambient",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "chiron_engine_low": {
+    "subtitle": "subtitles.bugatti.chiron.engine.low",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.7,
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.5,
+        "pitch": 0.3
+      }
+    ]
+  },
+  "chiron_engine_mid": {
+    "subtitle": "subtitles.bugatti.chiron.engine.mid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.7,
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.4,
+        "pitch": 0.3
+      }
+    ]
+  },
+  "chiron_engine_high": {
+    "subtitle": "subtitles.bugatti.chiron.engine.high",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.9,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.7,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "chiron_turbo": {
+    "subtitle": "subtitles.bugatti.chiron.turbo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.8,
+        "pitch": 1.8
+      }
+    ]
+  },
+
+  "_comment11": "=== VEYRON ENGINE SOUNDS ===",
+  "veyron_engine_idle": {
+    "subtitle": "subtitles.bugatti.veyron.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.6,
+        "pitch": 0.4
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.3,
+        "pitch": 0.3
+      }
+    ]
+  },
+  "veyron_engine_low": {
+    "subtitle": "subtitles.bugatti.veyron.engine.low",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.8,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.4,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "veyron_engine_mid": {
+    "subtitle": "subtitles.bugatti.veyron.engine.mid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.9,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.6,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.3,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "veyron_engine_high": {
+    "subtitle": "subtitles.bugatti.veyron.engine.high",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.5,
+        "pitch": 0.7
+      }
+    ]
+  },
+
+  "_comment12": "=== DIVO TRACK-FOCUSED SOUNDS ===",
+  "divo_engine_idle": {
+    "subtitle": "subtitles.bugatti.divo.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.7,
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.4,
+        "pitch": 0.3
+      }
+    ]
+  },
+  "divo_engine_low": {
+    "subtitle": "subtitles.bugatti.divo.engine.low",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.8,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.5,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "divo_engine_mid": {
+    "subtitle": "subtitles.bugatti.divo.engine.mid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.8,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.4,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "divo_engine_high": {
+    "subtitle": "subtitles.bugatti.divo.engine.high",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.6,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "divo_aggressive_rev": {
+    "subtitle": "subtitles.bugatti.divo.aggressive_rev",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+    ]
+  },
+
+  "_comment13": "=== TYPE 35 VINTAGE SOUNDS ===",
+  "type35_engine_idle": {
+    "subtitle": "subtitles.bugatti.type35.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.6,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block.grindstone.use",
+        "volume": 0.3,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "type35_engine_low": {
+    "subtitle": "subtitles.bugatti.type35.engine.low",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:block.grindstone.use",
+        "volume": 0.4,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "type35_engine_mid": {
+    "subtitle": "subtitles.bugatti.type35.engine.mid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.8,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.5,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "type35_engine_high": {
+    "subtitle": "subtitles.bugatti.type35.engine.high",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.9,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.7,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "type35_vintage_backfire": {
+    "subtitle": "subtitles.bugatti.type35.backfire",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "volume": 0.4,
+        "pitch": 1.5
+      }
+    ]
+  },
+
+  "_comment14": "=== CENTODIECI LUXURY SOUNDS ===",
+  "centodieci_engine_idle": {
+    "subtitle": "subtitles.bugatti.centodieci.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.4,
+        "pitch": 0.35
+      },
+      {
+        "name": "minecraft:block.conduit.ambient",
+        "volume": 0.3,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "centodieci_engine_low": {
+    "subtitle": "subtitles.bugatti.centodieci.engine.low",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.6,
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity.bee.loop",
+        "volume": 0.4,
+        "pitch": 0.3
+      }
+    ]
+  },
+  "centodieci_engine_mid": {
+    "subtitle": "subtitles.bugatti.centodieci.engine.mid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.8,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.5,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "centodieci_engine_high": {
+    "subtitle": "subtitles.bugatti.centodieci.engine.high",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.4,
+        "pitch": 0.6
+      }
+    ]
+  },
+
+  "_comment15": "=== BOLIDE TRACK BEAST SOUNDS ===",
+  "bolide_engine_idle": {
+    "subtitle": "subtitles.bugatti.bolide.engine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "volume": 0.8,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.6,
+        "pitch": 0.4
+      }
+    ]
+  },
+  "bolide_engine_low": {
+    "subtitle": "subtitles.bugatti.bolide.engine.low",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.7,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "bolide_engine_mid": {
+    "subtitle": "subtitles.bugatti.bolide.engine.mid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 0.9,
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.5,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "bolide_engine_high": {
+    "subtitle": "subtitles.bugatti.bolide.engine.high",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 1.0,
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 0.8,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "bolide_turbo_extreme": {
+    "subtitle": "subtitles.bugatti.bolide.turbo_extreme",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "volume": 1.0,
+        "pitch": 2.0
+      },
+      {
+        "name": "minecraft:entity.ghast.shoot",
+        "volume": 0.6,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "bolide_afterburner": {
+    "subtitle": "subtitles.bugatti.bolide.afterburner",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "volume": 1.0,
+        "pitch": 1.8
+      },
+      {
+        "name": "minecraft:entity.lightning_bolt.thunder",
+        "volume": 0.4,
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  "_comment16": "=== ENVIRONMENTAL & EFFECTS ===",
+  "engine_echo_cave": {
+    "subtitle": "subtitles.bugatti.engine.echo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.8,
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:ambient.cave.cave1",
+        "volume": 0.2,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "engine_muffled_underwater": {
+    "subtitle": "subtitles.bugatti.engine.muffled",
+    "sounds": [
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "volume": 0.3,
+        "pitch": 0.4
+      },
+      {
+        "name": "minecraft:block.bubble_column.bubble_pop",
+        "volume": 0.5,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "wind_noise_high_speed": {
+    "subtitle": "subtitles.bugatti.wind_noise",
+    "sounds": [
+      {
+        "name": "minecraft:weather.rain",
+        "volume": 0.4,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "collision_impact": {
+    "subtitle": "subtitles.bugatti.collision",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:block.anvil.land",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  }
+}

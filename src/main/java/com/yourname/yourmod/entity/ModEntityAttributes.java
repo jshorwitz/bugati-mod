@@ -17,6 +17,7 @@ public class ModEntityAttributes {
             .add(Attributes.MAX_HEALTH, 50.0D)  // 25 hearts
             .add(Attributes.MOVEMENT_SPEED, 0.0D)  // Cars don't use vanilla movement
             .add(Attributes.ARMOR, 10.0D)  // Some armor protection
+            .add(Attributes.ARMOR_TOUGHNESS, 0.0D)  // Required for damage calculations
             .add(Attributes.KNOCKBACK_RESISTANCE, 1.0D)  // Heavy cars resist knockback
             .add(Attributes.FOLLOW_RANGE, 16.0D)  // Required for Mob entities
             .add(Attributes.ATTACK_DAMAGE, 0.0D); // Cars don't attack

@@ -1,0 +1,7 @@
+# Bugatti Chiron Texture Colors
+
+Bugatti Blue: #374B93
+Silver Chrome: #DCDCDC
+Dark Wheels: #282828
+White Lights: #FFFFFF
+Light Blue Windows: #8CB4DC

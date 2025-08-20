@@ -1,0 +1,6 @@
+# Bugatti Divo Texture Colors
+
+Matte Gray: #3C4650
+Orange Racing Accent: #FF8C00
+Matte Black Wheels: #1E1E1E
+Dark Windows: #283C50

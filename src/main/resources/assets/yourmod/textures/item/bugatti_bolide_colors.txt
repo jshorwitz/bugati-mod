@@ -1,0 +1,6 @@
+# Bugatti Bolide Texture Colors
+
+Matte Black: #191919
+Neon Cyan: #00FFFF
+Orange Racing Flame: #FF6400
+Carbon Fiber Wheels: #28282D

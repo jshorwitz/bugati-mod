@@ -1,0 +1,6 @@
+# Bugatti Type35 Texture Colors
+
+Classic Racing Blue: #2D558C
+Vintage Brass: #B8860B
+Cream Racing Number: #FFF8DC
+Exposed Wire Wheels: #505050

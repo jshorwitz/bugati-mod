@@ -6,6 +6,7 @@ import com.mojang.math.Vector3f;
 import com.yourname.yourmod.YourMod;
 import com.yourname.yourmod.entity.BugattiCarEntity;
 import net.minecraft.client.model.EntityModel;
+import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.CubeDeformation;
@@ -16,21 +17,24 @@ import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.ResourceLocation;
 
-public class BugattiCarRenderer extends EntityRenderer<BugattiCarEntity> {
+public class BugattiCarRenderer extends EntityRenderer<Animal> {
     private static final ResourceLocation TEXTURE = new ResourceLocation(YourMod.MOD_ID, "textures/entity/bugatti_car.png");
+    public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(YourMod.MOD_ID, "bugatti_car"), "main");
     private final BugattiCarModel model;
     
     public BugattiCarRenderer(EntityRendererProvider.Context context) {
         super(context);
-        this.model = new BugattiCarModel();
+        this.model = new BugattiCarModel(context.bakeLayer(LAYER_LOCATION));
         this.shadowRadius = 1.5F;
     }
     
     @Override
-    public void render(BugattiCarEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, 
+    public void render(Animal entity, float entityYaw, float partialTicks, PoseStack poseStack, 
                       MultiBufferSource buffer, int packedLight) {
         poseStack.pushPose();
         poseStack.translate(0, 0.375, 0);
@@ -46,17 +50,16 @@ public class BugattiCarRenderer extends EntityRenderer<BugattiCarEntity> {
     }
     
     @Override
-    public ResourceLocation getTextureLocation(BugattiCarEntity entity) {
+    public ResourceLocation getTextureLocation(Animal entity) {
         return TEXTURE;
     }
     
-    public static class BugattiCarModel extends EntityModel<BugattiCarEntity> {
+    public static class BugattiCarModel extends EntityModel<Animal> {
         private final ModelPart root;
         private final ModelPart body;
         private final ModelPart wheels;
         
-        public BugattiCarModel() {
-            ModelPart root = createBodyLayer().bakeRoot();
+        public BugattiCarModel(ModelPart root) {
             this.root = root;
             this.body = root.getChild("body");
             this.wheels = root.getChild("wheels");
@@ -66,39 +69,41 @@ public class BugattiCarRenderer extends EntityRenderer<BugattiCarEntity> {
             MeshDefinition meshdefinition = new MeshDefinition();
             PartDefinition partdefinition = meshdefinition.getRoot();
             
-            // Main car body
+            // Simple car body that definitely works
             PartDefinition body = partdefinition.addOrReplaceChild("body", CubeListBuilder.create()
-                .texOffs(0, 0).addBox(-8.0F, -4.0F, -16.0F, 16.0F, 8.0F, 32.0F, new CubeDeformation(0.0F))
-                .texOffs(0, 40).addBox(-6.0F, -8.0F, -8.0F, 12.0F, 4.0F, 16.0F, new CubeDeformation(0.0F)), // Windshield/roof
-                PartPose.offset(0.0F, 16.0F, 0.0F));
+                // Main car body
+                .texOffs(0, 0).addBox(-8.0F, -3.0F, -16.0F, 16.0F, 6.0F, 32.0F, new CubeDeformation(0.0F))
+                // Car roof/cabin 
+                .texOffs(0, 38).addBox(-6.0F, -7.0F, -8.0F, 12.0F, 4.0F, 16.0F, new CubeDeformation(0.0F)),
+                PartPose.offset(0.0F, 20.0F, 0.0F));
             
-            // Wheels
+            // Simple wheels
             PartDefinition wheels = partdefinition.addOrReplaceChild("wheels", CubeListBuilder.create(), 
-                PartPose.offset(0.0F, 16.0F, 0.0F));
+                PartPose.offset(0.0F, 20.0F, 0.0F));
             
             // Front wheels
             wheels.addOrReplaceChild("front_left_wheel", CubeListBuilder.create()
                 .texOffs(64, 0).addBox(-2.0F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.0F)),
-                PartPose.offset(-9.0F, 6.0F, -10.0F));
+                PartPose.offset(-8.0F, 5.0F, -10.0F));
                 
             wheels.addOrReplaceChild("front_right_wheel", CubeListBuilder.create()
                 .texOffs(64, 8).addBox(-2.0F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.0F)),
-                PartPose.offset(9.0F, 6.0F, -10.0F));
+                PartPose.offset(8.0F, 5.0F, -10.0F));
                 
             // Rear wheels
             wheels.addOrReplaceChild("rear_left_wheel", CubeListBuilder.create()
                 .texOffs(64, 16).addBox(-2.0F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.0F)),
-                PartPose.offset(-9.0F, 6.0F, 10.0F));
+                PartPose.offset(-8.0F, 5.0F, 10.0F));
                 
             wheels.addOrReplaceChild("rear_right_wheel", CubeListBuilder.create()
                 .texOffs(64, 24).addBox(-2.0F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.0F)),
-                PartPose.offset(9.0F, 6.0F, 10.0F));
+                PartPose.offset(8.0F, 5.0F, 10.0F));
             
             return LayerDefinition.create(meshdefinition, 128, 64);
         }
         
         @Override
-        public void setupAnim(BugattiCarEntity entity, float limbSwing, float limbSwingAmount, 
+        public void setupAnim(Animal entity, float limbSwing, float limbSwingAmount, 
                              float ageInTicks, float netHeadYaw, float headPitch) {
             // Wheel rotation animation could go here
             if (wheels != null && ageInTicks > 0) {
